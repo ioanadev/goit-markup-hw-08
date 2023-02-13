@@ -1,0 +1,86 @@
+.hero {
+  background-color: $foreground-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 200px;
+  &__box {
+    width: 360px;
+   /*height: 400px;*/
+    height: 84px;
+    margin-bottom: 30px;
+
+  }
+  &__title {
+    color: $secondary-color;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 162%;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  &__button-box {
+    padding-bottom: 200px;
+  }
+  &__button {
+    background-color: $botton-color;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: $secondary-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+  }
+}
+.overlay-image {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("../../images/overlay-img-768.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (min-width: 768px) {
+  .overlay-image {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url("../images/overlay-img-1200.jpg");
+  }
+}
+@media (min-width: 1200px) {
+  .hero__box {
+    width: 696px;
+    height: 120px;
+  }
+  .hero__title {
+    font-size: 44px;
+    line-height: 136%;
+  }
+  .overlay-image {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url("../images/overlay-img-1600.jpg");
+  }
+}

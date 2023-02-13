@@ -1,0 +1,35 @@
+@import "../sass/utils/variables";
+// Body section
+@import "component/body";
+// Index Modal window
+@import "component/modal/modal";
+//Index Form Section
+@import "component/modal/form";
+//Index Header Section
+@import "component/header/header";
+//Index Header Logo
+@import "component/header/logo";
+//Index Header Navigation
+@import "component/header/navigation";
+@import "component/header/mobil-menu";
+//Index Header Contact
+@import "component/header/contact";
+//hero
+@import "component/hero";
+//Index Offer
+@import "component/offer";
+//Index Offer
+@import "component/products";
+
+@import "component/team";
+
+@import "component/costomers";
+//
+@import "component/footer/footer";
+
+@import "component/footer/social";
+
+@import "component/footer/newsleter";
+
+@import "component/portofolio-meniu";
+@import "component/portofolio-grid";

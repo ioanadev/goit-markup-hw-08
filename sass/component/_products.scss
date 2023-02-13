@@ -1,0 +1,34 @@
+.grid__image {
+  position: relative;
+}
+.grid__overlay {
+  width: 370px;
+  background: rgba(47, 48, 58, 0.8);
+  height: 70px;
+  position: absolute;
+  top: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 114%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $secondary-color;
+}
+/*@media screen and (max-width: 1200px) {
+  .products{
+    display: none;
+  }
+}*/
+
+
+/*@media screen and (min-width: 1200px) {
+  .products{
+    display: flex;
+ }
+}*/
+
+
+

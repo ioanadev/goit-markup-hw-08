@@ -1,0 +1,25 @@
+.header {
+  border-bottom: 1px solid $social-color;
+  &__top-line {
+    left: 0px;
+    display: flex;
+    top: 0px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .header__top-line {
+    margin: 16px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .header__top-line {
+    margin: 14px auto;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,32 @@
+.custom-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  &__item {
+  box-shadow: none;
+  width: 45%;
+  height: 92px;
+  fill: $social-color;
+  border: 1px solid $social-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    fill: $botton-color;
+    border: 1px solid $botton-color;
+  }
+}
+}
+@media screen and (min-width: 768px) {
+  .custom-grid__item {
+    width: 30%;
+    }
+}
+  @media screen and (min-width: 1200px) {
+    .custom-grid__item {
+      width: 14%;
+      }
+   }
+
