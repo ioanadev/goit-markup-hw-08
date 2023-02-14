@@ -1,14 +1,19 @@
 .menu {
   padding-bottom: 50px;
+  width: 70%;
+
   &__list {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content:flex-start;
   }
   &__items {
     margin-left: 8px;
+    margin-bottom: 15px;
     &:first-child {
       margin-left: 0;
+     
     }
   }
   &__button {
