@@ -58,10 +58,10 @@
     color: $botton-color;
     background-color: $botton-color;
     position: absolute;
-    top: 86px;
+    top: 88px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .current-page-link::after {
     top: 73px;
   }
